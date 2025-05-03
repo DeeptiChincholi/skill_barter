@@ -99,10 +99,10 @@ $conn->close();
     <title>Skill Barter - Search</title>
 </head>
 <body>
-    <nav class="navbar">
-    <div class="logo-container" style="margin-top: 5px; display:flex; flex-direction: row; gap: 10px; text-align:center; justify-content: center">
-            <img class="logoimage" height="80" width="80" src="logo.png" alt="logo">
-            <div ><a href="home.php" style="color: white; text-decoration:none;">Skill Barter</a></div>
+   <nav class="navbar">
+    <div class="logo-container" style="display: flex; align-items: center; gap: 10px;">
+    <img class="logoimage" height="80" width="80" src="logo.png" alt="logo">
+    <div ><a href="home.php" style="color: white; text-decoration:none;">Skill Barter</a></div>
         </div>
         <div class="nav-buttons" >
             <button class="btnregister" onclick="window.location.href='profile.php'">My Profile</button>
